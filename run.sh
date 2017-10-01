@@ -8,7 +8,6 @@ yarn
 cd ..
 
 # Init python app
-pip install virtualenv || true
 virtualenv venv
 . venv/bin/activate
 pip install -r pylister/requirements.txt
